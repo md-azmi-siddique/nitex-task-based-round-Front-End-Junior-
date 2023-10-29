@@ -1,0 +1,23 @@
+.product-container {
+    position: relative;
+  }
+  
+  .product-title {
+    opacity: 0;
+    transform: translateY(100%);
+    transition: opacity 0.5s, transform 2s;
+  }
+  
+  .product-title.show {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .product-fruits{
+    margin-bottom: 50px;
+  }
+
+/* .product-img{
+    width: 200px;
+    height: 200px;
+  } */
