@@ -7,6 +7,7 @@ const About = () => {
   return (
     <div className="about">
       <div className="container">
+        <h1>About Us</h1>
         <Card>
           <img className="about-img" src={about} alt="" />
           <Card.Body>

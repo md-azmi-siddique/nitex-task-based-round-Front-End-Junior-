@@ -5,6 +5,7 @@ import ContactUs from './Components/ContactUs/ContactUs';
 import Header from './Components/Header/Header';
 import HeroDesign from './Components/HeroDesign/HeroDesign';
 import Product from './Components/Product/Product';
+import Service from './Components/Service/Service';
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
     <HeroDesign></HeroDesign>
     <About></About>
     <Product></Product>
+    <Service></Service>
     <ContactUs></ContactUs>
     </div>
   );
