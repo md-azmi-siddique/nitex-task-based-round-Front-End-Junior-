@@ -1,0 +1,25 @@
+.navbar-heading {
+  margin-top: 5px;
+}
+/* In your CSS file or module */
+/* .bg-blue {
+    background-color: black;
+  } */
+
+.navbar {
+  color: violet;
+}
+
+img {
+  height: 50px;
+  border-radius: 20px;
+  margin-left: 75px;
+}
+
+.search-box {
+  margin-right: 75px;
+}
+
+Nav.Link {
+  margin-left: 1000px;
+}

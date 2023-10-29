@@ -1,0 +1,13 @@
+.carousel-section{
+    border-radius: 30px;
+    /* background-color: red; */
+}
+
+.carousel-img {
+    height: 400px;
+    border-radius: 20px;
+    margin-left: 75px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  
