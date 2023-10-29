@@ -1,3 +1,18 @@
 .footer{
     background-color: #2b3035;
 }
+
+/* .footer-title {
+    opacity: 0;
+    transform: translateY(100%);
+    transition: opacity 0.5s, transform 10s;
+  }
+  
+  .product-title.contact {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .product-fruits{
+    margin-bottom: 50px;
+  } */

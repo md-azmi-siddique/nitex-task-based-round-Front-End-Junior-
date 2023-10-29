@@ -1,11 +1,21 @@
-import React from "react";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebook } from '@fortawesome/free-brands-svg-icons';
+import React, { useState, useEffect } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faFacebook } from "@fortawesome/free-brands-svg-icons";
 import "./ContactUs.css";
 
 const ContactUs = () => {
+//     const [show, setShow] = useState(false);
+
+//   useEffect(() => {
+//     const timer = setTimeout(() => {
+//       setShow(true);
+//     }, 1000);
+
+//     return () => clearTimeout(timer);
+//   }, []);
   return (
     <div className="footer">
+        {/* <div className={`product-title ${show ? "show" : ""}`}> */}
       <div className="container my-5">
         <footer className="text-center text-lg-start text-white">
           <div className="container p-4 pb-0">
@@ -49,16 +59,13 @@ const ContactUs = () => {
                     Contact
                   </h6>
                   <p>
-                    <i className="fas fa-home mr-3"></i> New York, NY 10012, US
+                    <i className="fas fa-home mr-3"></i> Dhaka, Bangladesh
                   </p>
                   <p>
-                    <i className="fas fa-envelope mr-3"></i> info@gmail.com
+                    <i className="fas fa-envelope mr-3"></i> info.foodHouse@gmail.com
                   </p>
                   <p>
-                    <i className="fas fa-phone mr-3"></i> + 01 234 567 88
-                  </p>
-                  <p>
-                    <i className="fas fa-print mr-3"></i> + 01 234 567 89
+                    <i className="fas fa-phone mr-3"></i> + 880 1882400479
                   </p>
                 </div>
               </div>
@@ -69,10 +76,10 @@ const ContactUs = () => {
             <section className="p-3 pt-0">
               <div className="row d-flex align-items-center">
                 <div className="col-md-7 col-lg-8 text-center text-md-start">
-                  <div className="p-3">
-                    © 2020 Copyright:
+                  <div className="p-3 d-flex align-items-center justify-content-center">
+                    © 2023 Copyright:
                     <a className="text-white" href="https://mdbootstrap.com/">
-                      MDBootstrap.com
+                      FoodHouse.com
                     </a>
                   </div>
                 </div>
@@ -85,7 +92,8 @@ const ContactUs = () => {
           </div>
         </footer>
       </div>
-    </div>
+      </div>
+    // </div>
   );
 };
 

@@ -40,6 +40,7 @@ function Header() {
               <Offcanvas.Body>
                 <Nav className="justify-content-end flex-grow-1 pe-3">
                   <Nav.Link href="/">Home</Nav.Link>
+                  <Nav.Link href="/about">About</Nav.Link>
                   <NavDropdown
                     title="Products"
                     id={`offcanvasNavbarDropdown-expand-${expand}`}
@@ -49,10 +50,10 @@ function Header() {
                       Non Organic
                     </NavDropdown.Item>
                   </NavDropdown>
-                  <Nav.Link href="/about">About</Nav.Link>
+                  
                   <Nav.Link href="/services">Services</Nav.Link>
-                  <Nav.Link href="/contact">Contact Us</Nav.Link>
                   <Nav.Link href="/review">Review</Nav.Link>
+                  <Nav.Link href="/contact">Contact Us</Nav.Link>
                 </Nav>
                 <Form className="d-flex total-search-box search-box">
                   <Form.Control

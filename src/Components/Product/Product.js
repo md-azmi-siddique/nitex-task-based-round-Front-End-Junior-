@@ -6,11 +6,11 @@ import img3 from '../Assets/images/Products/Fruits/3.png'
 import img4 from '../Assets/images/Products/Fruits/4.png'
 
 const Product = () => {
-  const [showH1, setShowH1] = useState(false);
+  const [show, setShow] = useState(false);
 
   useEffect(() => {
     const timer = setTimeout(() => {
-      setShowH1(true);
+      setShow(true);
     }, 1000);
 
     return () => clearTimeout(timer);
@@ -18,7 +18,7 @@ const Product = () => {
 
   return (
     <div className="container product-container">
-      <div className={`product-title ${showH1 ? "show" : ""}`}>
+      <div className={`product-title ${show ? "show" : ""}`}>
         <h1>Feature Products</h1>
         <br></br>
         <h3>Fruits</h3>
