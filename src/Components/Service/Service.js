@@ -20,9 +20,7 @@ const Service = () => {
                   <div class="card-body">
                     <h5 class="card-title">Home Delivery</h5>
                     <p class="card-text">
-                      This is a wider card with supporting text below as a
-                      natural lead-in to additional content. This content is a
-                      little bit longer.
+                    Home delivery is a service offered by businesses where products or goods are brought directly to a customer's residence, providing convenience and reducing the need for in-person shopping or pick-up.
                     </p>
                   </div>
                 </div>
@@ -39,9 +37,7 @@ const Service = () => {
                   <div class="card-body">
                     <h5 class="card-title">Consumer-Farmer Relationship</h5>
                     <p class="card-text">
-                      This is a wider card with supporting text below as a
-                      natural lead-in to additional content. This content is a
-                      little bit longer.
+                    The client-farmer relationship denotes a partnership between agricultural service providers or organizations and farmers. It involves providing support, resources, and expertise to farmers to improve their agricultural practices, yield, and overall livelihoods. This relationship fosters mutual trust, knowledge-sharing, and long-term collaboration for sustainable farming outcomes.
                     </p>
                   </div>
                 </div>
@@ -60,9 +56,7 @@ const Service = () => {
                   <div class="card-body">
                     <h5 class="card-title">Waste Management</h5>
                     <p class="card-text">
-                      This is a wider card with supporting text below as a
-                      natural lead-in to additional content. This content is a
-                      little bit longer.
+                    Waste management is the systematic handling, collection, disposal, and recycling of waste materials to minimize environmental impact and promote sustainability.
                     </p>
                   
                   </div>
@@ -80,9 +74,7 @@ const Service = () => {
                   <div class="card-body">
                     <h5 class="card-title">Customer Service</h5>
                     <p class="card-text">
-                      This is a wider card with supporting text below as a
-                      natural lead-in to additional content. This content is a
-                      little bit longer.
+                    Customer service refers to the assistance and support provided to customers by businesses or organizations to address their inquiries, concerns, and needs, enhancing customer satisfaction and loyalty.
                     </p>
                   </div>
                 </div>

@@ -15,7 +15,7 @@ function Header() {
     <div className="header">
       {["md"].map((expand) => (
         <Navbar 
-        
+        fixed="top"
           data-bs-theme="dark"
           key={expand}
           expand={expand}
