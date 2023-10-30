@@ -1,7 +1,10 @@
-/* .blog-container{
-    border: 1px solid red;
-} */
+.container{
+    /* border: 1px solid red; */
+    margin-top: 50px;
+}
 
 .blog-container img{
+    height: 300px;
+    width: 300px;
     margin: 0px;
 }

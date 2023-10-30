@@ -1,14 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFacebook } from "@fortawesome/free-brands-svg-icons";
+import { faFacebook, faInstagram, faEdgeLegacy, faTwitter } from "@fortawesome/free-brands-svg-icons";
 import "./ContactUs.css";
 
 const ContactUs = () => {
 
   return (
     <div className="footer">
-        {/* <div className={`product-title ${show ? "show" : ""}`}> */}
+        
       <div className="container my-5">
         <footer className="text-center text-lg-start text-white">
           <div className="container p-4 pb-0">
@@ -55,7 +55,7 @@ const ContactUs = () => {
                     <i className="fas fa-home mr-3"></i> Dhaka, Bangladesh
                   </p>
                   <p>
-                    <i className="fas fa-envelope mr-3"></i> info.foodHouse@gmail.com
+                    <i className="fas fa-envelope mr-3"></i> md.azmi.siddique@gmail.com
                   </p>
                   <p>
                     <i className="fas fa-phone mr-3"></i> + 880 1882400479
@@ -67,21 +67,20 @@ const ContactUs = () => {
             <hr className="my-3" />
 
             <section className="p-3 pt-0">
-              <div className="row d-flex align-items-center">
-                <div className="col-md-7 col-lg-8 text-center text-md-start">
-                  <div className="p-3 d-flex align-items-center justify-content-center">
-                    © 2023 Copyright:
-                    <a className="text-white" href="https://mdbootstrap.com/">
-                      FoodHouse.com
-                    </a>
-                  </div>
-                </div>
-
+              <div className="row justify-content-center">
                 <div className="col-md-5 col-lg-4 ml-lg-0 text-center text-md-end">
-                  <FontAwesomeIcon icon={faFacebook} />
-                  <FontAwesomeIcon icon={faFacebook} />
+                  <FontAwesomeIcon className="icons" icon={faEdgeLegacy} size="2xl"/>
+                  <FontAwesomeIcon className="icons" icon={faFacebook} size="2xl" />
+                  <FontAwesomeIcon className="icons" icon={faInstagram} size="2xl" />
+                  <FontAwesomeIcon className="icons" icon={faTwitter} size="2xl" />
                 </div>
               </div>
+              <div className="p-3 d-flex align-items-center justify-content-center">
+                    © 2023 Copyright:
+                    <a className="text-white" href="https://mdbootstrap.com/">
+                      Md Azmi Siddique
+                    </a>
+                  </div>
             </section>
           </div>
         </footer>

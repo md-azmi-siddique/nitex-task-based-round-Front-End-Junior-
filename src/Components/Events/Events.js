@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import eventImg from "../Assets/images/Event/1.png";
 
 import "./Events.css";
 const Events = () => {
@@ -17,44 +18,36 @@ const Events = () => {
       <div className={`event-title ${event ? "event" : ""}`}>
         <h1>Events</h1>
         <br></br>
-        
-        <div class="d-flex event-fruits">
-          <div class="flex-shrink-0">
-            {/* <img className="event-img" src={} alt="..." /> */}
+
+        <div className="row">
+          <div className="col">
+            <div class="d-flex event-fruits">
+              <div class="flex-shrink-0">
+                {/* <img className="event-img" src={} alt="..." /> */}
+              </div>
+              <div class="flex-grow-1 ms-3">
+                1. Organized the organic food events.
+              </div>
+            </div>
+            <div class="d-flex event-fruits">
+              <div class="flex-shrink-0">
+                {/* <img className="event-img" src={} alt="..." /> */}
+              </div>
+              <div class="flex-grow-1 ms-3">
+                2. Free seed distribution among the partnered farmers.
+              </div>
+            </div>
+            <div class="d-flex event-fruits">
+              <div class="flex-shrink-0">
+                {/* <img className="event-img" src={} alt="..." /> */}
+              </div>
+              <div class="flex-grow-1 ms-3">
+                3. Customer feedback taking through online.
+              </div>
+            </div>
           </div>
-          <div class="flex-grow-1 ms-3">
-            Apples are round or oval fruits, often red or green, with a crisp
-            texture and sweet to tart flavor. They are a good source of fiber
-            and various nutrients.
-          </div>
-        </div>
-        <div class="d-flex event-fruits">
-          <div class="flex-shrink-0">
-            {/* <img className="event-img" src={} alt="..." /> */}
-          </div>
-          <div class="flex-grow-1 ms-3">
-            Mango is a tropical fruit prized for its juicy, sweet, and fragrant
-            flesh. It has a distinctive oval shape and often has a yellow-orange
-            skin. Rich in vitamins and antioxidants.
-          </div>
-        </div>
-        <div class="d-flex event-fruits">
-          <div class="flex-shrink-0">
-            {/* <img className="event-img" src={} alt="..." /> */}
-          </div>
-          <div class="flex-grow-1 ms-3">
-            Banana is a popular tropical fruit, known for its yellow color,
-            creamy texture, and sweet flavor, rich in potassium and dietary
-            fiber.
-          </div>
-        </div>
-        <div class="d-flex event-fruits">
-          <div class="flex-shrink-0">
-            {/* <img className="event-img" src={} alt="..." /> */}
-          </div>
-          <div class="flex-grow-1 ms-3">
-            An orange is a citrus fruit, known for its round shape, vibrant
-            orange color, and sweet-tangy flavor, abundant in vitamin C.
+          <div className="col">
+          <img className="image-event" src={eventImg} alt="" />
           </div>
         </div>
       </div>

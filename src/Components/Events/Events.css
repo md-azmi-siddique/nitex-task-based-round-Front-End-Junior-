@@ -18,7 +18,7 @@
     margin-bottom: 50px;
   }
 
-/* .event-img{
-    width: 200px;
-    height: 200px;
-  } */
+.image-event{
+  height: 300px;
+  width: 300px;
+}
