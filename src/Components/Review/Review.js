@@ -12,7 +12,7 @@ const Review = () => {
     // Use a setTimeout to delay the appearance of the component.
     const timer = setTimeout(() => {
       setIsVisible(true);
-    }, 4000);
+    }, 3000);
 
     return () => {
       clearTimeout(timer);
@@ -21,47 +21,44 @@ const Review = () => {
 
   return (
     <div className="container">
-      <div className={`container review ${isVisible ? "visible" : ""}`}>
-        <div class="row row-cols-1 row-cols-md-3 g-4">
-          <div class="col col-6 col-md-3">
-            <div class="card" style={{ width: "18rem" }}>
-              <img src={rimg1} class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title">Mr. John</h5>
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
+    <div
+      className={`justify-content-center review ${
+        isVisible ? "visible" : ""
+      }`}
+    >
+      <div className="d-flex flex-row mb-3 justify-content-center align-content-start flex-wrap">
+        <div className="row row-cols-4 g-4">
+          <div className="col col-6 col-md-4 col-sm-4">
+            <div className="card h-100">
+              <img src={rimg1} className="card-img-top" alt="..." />
+              <div className="card-body">
+                <h5 className="card-title">Title</h5>
+                <p className="card-text"></p>
               </div>
             </div>
           </div>
-          <div class="col col-6 col-md-3">
-          <div class="card" style={{ width: "18rem" }}>
-              <img src={rimg2} class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title">Mrs Larry</h5>
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
+          <div className="col col-6 col-md-4 col-sm-4">
+            <div className="card h-100">
+              <img src={rimg2} className="card-img-top" alt="..." />
+              <div className="card-body">
+                <h5 className="card-title">Title</h5>
+                <p className="card-text"></p>
               </div>
             </div>
           </div>
-          <div class="col col-6 col-md-3">
-          <div class="card" style={{ width: "18rem" }}>
-              <img src={rimg3} class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title">Prof. Henry Maguesh</h5>
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
+          <div className="col col-6 col-md-4 col-sm-4">
+            <div className="card h-100">
+              <img src={rimg3} className="card-img-top" alt="..." />
+              <div className="card-body">
+                <h5 className="card-title">Title</h5>
+                <p className="card-text"></p>
               </div>
             </div>
           </div>
 
         </div>
       </div>
+    </div>
     </div>
   );
 };

@@ -29,6 +29,17 @@ function App() {
           }
         />
         <Route
+          exact
+          path="/products"
+          element={
+            <div>
+              <Header></Header>
+              <Product></Product>
+              <ContactUs></ContactUs>
+            </div>
+          }
+        />
+        <Route
           path="/about"
           element={
             <>
@@ -49,7 +60,7 @@ function App() {
           }
         />
         <Route
-          path="/review"
+          path="/reviews"
           element={
             <>
               <Header></Header>
@@ -58,12 +69,15 @@ function App() {
             </>
           }
         />
-        <Route path="/contact" element={
-          <>
-          <Header></Header>
-          <ContactUs></ContactUs>
-          </>
-        } />
+        <Route
+          path="/contact"
+          element={
+            <>
+              <Header></Header>
+              <ContactUs></ContactUs>
+            </>
+          }
+        />
         <Route path="*" element={<Error404></Error404>} />
       </Routes>
     </Router>

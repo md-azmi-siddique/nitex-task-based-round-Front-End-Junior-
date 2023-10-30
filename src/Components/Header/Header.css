@@ -4,14 +4,13 @@
 .navbar-heading {
   margin-top: 5px;
 }
-/* In your CSS file or module */
-/* .bg-blue {
-    background-color: black;
-  } */
 
-.navbar {
-  color: violet;
+/* In your CSS file */
+.custom-dropdown-title .nav-link {
+  color: #8bb9fe; /* Change the color to the desired color */
+  font-weight: bolder;
 }
+
 
 img {
   height: 50px;

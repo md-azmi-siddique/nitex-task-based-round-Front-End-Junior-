@@ -44,7 +44,11 @@ function Header() {
                   <Nav.Link><Link style={{textDecoration:'none', fontWeight:'bolder'}} to="/products">Products</Link></Nav.Link>
                   <Nav.Link><Link style={{textDecoration:'none', fontWeight:'bolder'}} to="/about">About</Link></Nav.Link>
                   <Nav.Link><Link style={{textDecoration:'none',fontWeight:'bolder'}} to="/services">Services</Link></Nav.Link>
-                  <Nav.Link><Link style={{textDecoration:'none', fontWeight:'bolder'}} to="/review">Review</Link></Nav.Link>
+                  <Nav.Link><Link style={{textDecoration:'none', fontWeight:'bolder'}} to="/reviews">Review</Link></Nav.Link>
+                  <NavDropdown title="Useful Links" className="custom-dropdown-title">
+                    <NavDropdown.Item><Link style={{textDecoration:'none', fontWeight:'bolder'}} to="/blog">Blog</Link></NavDropdown.Item>
+                    <NavDropdown.Item><Link style={{textDecoration:'none', fontWeight:'bolder'}} to="/events">Events</Link></NavDropdown.Item>
+                  </NavDropdown>
                   <Nav.Link><Link style={{textDecoration:'none', fontWeight:'bolder'}} to="/contact">Contact Us</Link></Nav.Link>
                 </Nav>
                 <Form className="d-flex total-search-box search-box">
