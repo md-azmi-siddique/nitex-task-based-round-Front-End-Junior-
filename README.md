@@ -5,4 +5,6 @@
 ### link: https://simple-front-end-design.netlify.app/ to see live 
 
 # Full page view
-![fullpage](https://github.com/md-azmi-siddique/nitex-task-based-round-Front-End-Junior-/assets/73628141/c6644146-2c11-4f26-8109-66b656ddda42)
+
+![screencapture-simple-front-end-design-netlify-app-2023-10-30-22_32_01](https://github.com/md-azmi-siddique/nitex-task-based-round-Front-End-Junior-/assets/73628141/75655ede-ff85-4a2b-88d6-4ddf89a75e9e)
+
