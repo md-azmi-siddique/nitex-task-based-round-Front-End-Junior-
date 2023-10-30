@@ -19,7 +19,7 @@ const HeroDesign = () => {
               
             </div>
             <div className="col-md-4">
-              <img className="carousel-img img-fluid" src={fruits} alt="..." />
+              <img className="carousel-img img-fluid c-img" src={fruits} alt="..." />
             </div>
           </div>
         </Carousel.Item>
@@ -33,7 +33,7 @@ const HeroDesign = () => {
               
             </div>
             <div className="col-md-4">
-              <img className="carousel-img img-fluid" src={juice} alt="..." />
+              <img className="carousel-img img-fluid c-img" src={juice} alt="..." />
             </div>
           </div>
 
@@ -48,7 +48,7 @@ const HeroDesign = () => {
               
             </div>
             <div class="col-md-4">
-              <img className="carousel-img img-fluid" src={vegetables} alt="..." />
+              <img className="carousel-img img-fluid c-img" src={vegetables} alt="..." />
             </div>
           </div>
         </Carousel.Item>
