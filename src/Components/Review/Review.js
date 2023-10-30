@@ -6,12 +6,12 @@ import rimg3 from "../Assets/images/Review/3.png";
 import "./Review.css";
 
 const Review = () => {
-  const [isVisible, setIsVisible] = useState(false);
+  const [review, setReview] = useState(false);
 
   useEffect(() => {
     // Use a setTimeout to delay the appearance of the component.
     const timer = setTimeout(() => {
-      setIsVisible(true);
+      setReview(true);
     }, 3000);
 
     return () => {
@@ -22,11 +22,7 @@ const Review = () => {
   return (
     <div className="container review-container">
       <h1>Reviews of Experts</h1>
-      <div
-        className={`justify-content-center review ${
-          isVisible ? "visible" : ""
-        }`}
-      >
+      <div className={`review-title ${review ? "review" : ""}`}>
         <div className="row">
         <div className="col-md-4 col-sm-4">
           <div class="card" style={{ width: "18rem" }}>

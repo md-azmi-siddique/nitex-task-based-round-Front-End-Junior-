@@ -24,7 +24,7 @@ function Header() {
           id="navBar"
         >
           <Container fluid>
-            <Navbar.Brand href="#">
+            <Navbar.Brand>
               <img src={logo} alt="" />
             </Navbar.Brand>
             <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />

@@ -1,18 +1,11 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
+import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFacebook } from "@fortawesome/free-brands-svg-icons";
 import "./ContactUs.css";
 
 const ContactUs = () => {
-//     const [show, setShow] = useState(false);
 
-//   useEffect(() => {
-//     const timer = setTimeout(() => {
-//       setShow(true);
-//     }, 1000);
-
-//     return () => clearTimeout(timer);
-//   }, []);
   return (
     <div className="footer">
         {/* <div className={`product-title ${show ? "show" : ""}`}> */}
@@ -45,7 +38,7 @@ const ContactUs = () => {
 
                 <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
                   <h6 className="text-uppercase mb-4 font-weight-bold">
-                    Services
+                  <Link className="footer-item" to="/services">Services</Link>
                   </h6>
                   <p>Home Delivery</p>
                   <p>Waste Management</p>
@@ -85,6 +78,7 @@ const ContactUs = () => {
                 </div>
 
                 <div className="col-md-5 col-lg-4 ml-lg-0 text-center text-md-end">
+                  <FontAwesomeIcon icon={faFacebook} />
                   <FontAwesomeIcon icon={faFacebook} />
                 </div>
               </div>

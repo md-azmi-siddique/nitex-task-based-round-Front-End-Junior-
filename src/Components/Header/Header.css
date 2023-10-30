@@ -3,6 +3,10 @@
   font-weight: bold;
   margin: 20px;
 }
+
+.header .header-item:hover{
+  color: wheat
+}
 .header{
   margin-bottom: 100px;
 }

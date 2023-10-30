@@ -15,19 +15,15 @@
     width: 200px;
 }
 
-.review {
-    /* Your existing styles for the review component */
-  
-    /* Initial position outside the viewport */
-    transform: translateX(-100%);
-    opacity: 0;
-    transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
-  }
-  
-  .review.visible {
-    /* Animate to the final position (0) with full opacity */
-    transform: translateX(0);
-    opacity: 1;
-  }
+.review-title {
+  opacity: 0;
+  transform: translateX(-100%); /* Start off-screen to the left */
+  transition: opacity 0s, transform 6s;
+}
+
+.review-title.review {
+  opacity: 1;
+  transform: translateX(0); /* Slide in from the left to the right */
+}
 
   

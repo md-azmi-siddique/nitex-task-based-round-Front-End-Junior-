@@ -15,10 +15,9 @@ const Service = () => {
           <Card style={{ width: "29rem" }}>
             <Card.Img variant="top" src={img1} />
             <Card.Body>
-              <Card.Title>Card Title</Card.Title>
+              <Card.Title>Home Delivery</Card.Title>
               <Card.Text>
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                Home delivery door to door.
               </Card.Text>
             </Card.Body>
           </Card>
