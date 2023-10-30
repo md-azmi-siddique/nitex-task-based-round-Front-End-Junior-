@@ -1,0 +1,29 @@
+/* App.css or a separate CSS file */
+.review-hidden {
+    opacity: 0;
+    transition: opacity 0.5s;
+  }
+  .review-visible {
+    opacity: 1;
+  }
+  
+.review img{
+    height: 200px;
+    width: 200px;
+}
+
+.review {
+    /* Your existing styles for the review component */
+  
+    /* Initial position outside the viewport */
+    transform: translateX(-100%);
+    opacity: 0;
+    transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+  }
+  
+  .review.visible {
+    /* Animate to the final position (0) with full opacity */
+    transform: translateX(0);
+    opacity: 1;
+  }
+  

@@ -3,6 +3,7 @@ import img1 from '../Assets/images/Services/1.png'
 import img2 from '../Assets/images/Services/2.png'
 import img3 from '../Assets/images/Services/3.png'
 import img4 from '../Assets/images/Services/4.png'
+import './Service.css'
 
 const Service = () => {
   return (
@@ -10,7 +11,7 @@ const Service = () => {
       <div className="container">
         <h1>Our Services</h1>
         <div className="row">
-          <div className="col-md-6 col-sm-6">
+          <div className="col-md-6 col-sm-6 fade-in">
             <div class="card mb-3">
               <div class="row g-0">
                 <div class="col-md-4">
@@ -27,7 +28,7 @@ const Service = () => {
               </div>
             </div>
           </div>
-          <div className="col-md-6 col-sm-6">
+          <div className="col-md-6 col-sm-6 fade-in">
           <div class="card mb-3">
               <div class="row g-0">
                 <div class="col-md-4">
@@ -46,7 +47,7 @@ const Service = () => {
           </div>
         </div>
         <div className="row">
-          <div className="col-md-6">
+          <div className="col-md-6 fade-in">
           <div class="card mb-3">
               <div class="row g-0">
                 <div class="col-md-4">
@@ -64,7 +65,7 @@ const Service = () => {
               </div>
             </div>
           </div>
-          <div className="col-md-6">
+          <div className="col-md-6 fade-in">
           <div class="card mb-3">
               <div class="row g-0">
                 <div class="col-md-4">

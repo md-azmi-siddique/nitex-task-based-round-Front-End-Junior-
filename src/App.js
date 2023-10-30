@@ -5,6 +5,7 @@ import Error404 from "./Components/Error404/Error404";
 import Header from "./Components/Header/Header";
 import HeroDesign from "./Components/HeroDesign/HeroDesign";
 import Product from "./Components/Product/Product";
+import Review from "./Components/Review/Review";
 import Service from "./Components/Service/Service";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
@@ -19,9 +20,10 @@ function App() {
             <div>
               <Header></Header>
               <HeroDesign></HeroDesign>
-              <Product></Product>
               <About></About>
+              <Product></Product>
               <Service></Service>
+              <Review></Review>
               <ContactUs></ContactUs>
             </div>
           }
@@ -37,21 +39,21 @@ function App() {
           }
         />
         <Route
-          path="/products"
-          element={
-            <>
-              <Header></Header>
-              <Product></Product>
-              <ContactUs></ContactUs>
-            </>
-          }
-        />
-        <Route
           path="/services"
           element={
             <>
               <Header></Header>
               <Service></Service>
+              <ContactUs></ContactUs>
+            </>
+          }
+        />
+        <Route
+          path="/review"
+          element={
+            <>
+              <Header></Header>
+              <Review></Review>
               <ContactUs></ContactUs>
             </>
           }
