@@ -111,7 +111,7 @@ const ContactUs = () => {
               </div>
               <div className="p-3 d-flex align-items-center justify-content-center">
                 © 2023 Copyright:
-                <a className="text-white" href="https://mdbootstrap.com/">
+                <a className="text-white" href="https://md-azmi-siddique.github.io/Md-Azmi-Siddique/">
                   Md Azmi Siddique
                 </a>
               </div>
