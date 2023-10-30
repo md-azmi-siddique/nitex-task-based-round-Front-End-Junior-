@@ -26,3 +26,11 @@ img {
 Nav.Link {
   margin-left: 1000px;
 }
+
+@media (max-width: 768px) {
+  .custom-navbar .mobile-link {
+    color: red; /* Set your desired font color for mobile devices */
+  }
+}
+
+

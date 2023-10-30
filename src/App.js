@@ -6,7 +6,7 @@ import Header from "./Components/Header/Header";
 import HeroDesign from "./Components/HeroDesign/HeroDesign";
 import Product from "./Components/Product/Product";
 import Service from "./Components/Service/Service";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
@@ -19,8 +19,8 @@ function App() {
             <div>
               <Header></Header>
               <HeroDesign></HeroDesign>
-              <About></About>
               <Product></Product>
+              <About></About>
               <Service></Service>
               <ContactUs></ContactUs>
             </div>
@@ -32,6 +32,17 @@ function App() {
             <>
               <Header></Header>
               <About></About>
+              <ContactUs></ContactUs>
+            </>
+          }
+        />
+        <Route
+          path="/products"
+          element={
+            <>
+              <Header></Header>
+              <Product></Product>
+              <ContactUs></ContactUs>
             </>
           }
         />
@@ -41,6 +52,7 @@ function App() {
             <>
               <Header></Header>
               <Service></Service>
+              <ContactUs></ContactUs>
             </>
           }
         />

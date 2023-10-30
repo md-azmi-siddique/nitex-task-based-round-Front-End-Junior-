@@ -7,6 +7,7 @@ import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import Offcanvas from "react-bootstrap/Offcanvas";
 import logo from "../Assets/images/NavLogo/logo.jpg";
+import { Link } from "react-router-dom";
 
 import "./Header.css";
 
@@ -39,21 +40,12 @@ function Header() {
               </Offcanvas.Header>
               <Offcanvas.Body>
                 <Nav className="justify-content-end flex-grow-1 pe-3">
-                  <Nav.Link href="/">Home</Nav.Link>
-                  <Nav.Link href="/about">About</Nav.Link>
-                  <NavDropdown
-                    title="Products"
-                    id={`offcanvasNavbarDropdown-expand-${expand}`}
-                  >
-                    <NavDropdown.Item href="/organic">Organic</NavDropdown.Item>
-                    <NavDropdown.Item href="/non-organic">
-                      Non Organic
-                    </NavDropdown.Item>
-                  </NavDropdown>
-                  
-                  <Nav.Link href="/services">Services</Nav.Link>
-                  <Nav.Link href="/review">Review</Nav.Link>
-                  <Nav.Link href="/contact">Contact Us</Nav.Link>
+                  <Nav.Link><Link style={{textDecoration:'none', fontWeight:'bolder'}} to="/">Home</Link></Nav.Link>
+                  <Nav.Link><Link style={{textDecoration:'none', fontWeight:'bolder'}} to="/products">Products</Link></Nav.Link>
+                  <Nav.Link><Link style={{textDecoration:'none', fontWeight:'bolder'}} to="/about">About</Link></Nav.Link>
+                  <Nav.Link><Link style={{textDecoration:'none',fontWeight:'bolder'}} to="/services">Services</Link></Nav.Link>
+                  <Nav.Link><Link style={{textDecoration:'none', fontWeight:'bolder'}} to="/review">Review</Link></Nav.Link>
+                  <Nav.Link><Link style={{textDecoration:'none', fontWeight:'bolder'}} to="/contact">Contact Us</Link></Nav.Link>
                 </Nav>
                 <Form className="d-flex total-search-box search-box">
                   <Form.Control

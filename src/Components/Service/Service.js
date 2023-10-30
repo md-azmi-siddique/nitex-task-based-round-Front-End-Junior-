@@ -10,8 +10,8 @@ const Service = () => {
       <div className="container">
         <h1>Our Services</h1>
         <div className="row">
-          <div className="col-md-6">
-            <div class="card mb-3" style={{ maxWidth: "540px" }}>
+          <div className="col-md-6 col-sm-6">
+            <div class="card mb-3">
               <div class="row g-0">
                 <div class="col-md-4">
                   <img src={img1} class="img-fluid rounded-start" alt="..." />
@@ -27,8 +27,8 @@ const Service = () => {
               </div>
             </div>
           </div>
-          <div className="col-md-6">
-          <div class="card mb-3" style={{ maxWidth: "540px" }}>
+          <div className="col-md-6 col-sm-6">
+          <div class="card mb-3">
               <div class="row g-0">
                 <div class="col-md-4">
                   <img src={img4} class="img-fluid rounded-start" alt="..." />
@@ -47,7 +47,7 @@ const Service = () => {
         </div>
         <div className="row">
           <div className="col-md-6">
-          <div class="card mb-3" style={{ maxWidth: "540px" }}>
+          <div class="card mb-3">
               <div class="row g-0">
                 <div class="col-md-4">
                   <img src={img2} class="img-fluid rounded-start" alt="..." />
@@ -65,7 +65,7 @@ const Service = () => {
             </div>
           </div>
           <div className="col-md-6">
-          <div class="card mb-3" style={{ maxWidth: "540px" }}>
+          <div class="card mb-3">
               <div class="row g-0">
                 <div class="col-md-4">
                   <img src={img3} class="img-fluid rounded-start" alt="..." />

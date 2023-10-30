@@ -19,7 +19,7 @@ const Product = () => {
   return (
     <div className="container product-container">
       <div className={`product-title ${show ? "show" : ""}`}>
-        <h1>Feature Products</h1>
+        <h1>Products</h1>
         <br></br>
         <h3>Fruits</h3>
         <div class="d-flex product-fruits">
