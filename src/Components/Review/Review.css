@@ -1,4 +1,7 @@
 /* App.css or a separate CSS file */
+/* .review-container{
+  border: 1px solid red;
+} */
 .review-hidden {
     opacity: 0;
     transition: opacity 0.5s;

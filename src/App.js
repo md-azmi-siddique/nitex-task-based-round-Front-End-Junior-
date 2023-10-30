@@ -26,7 +26,6 @@ function App() {
               <Product></Product>
               <Service></Service>
               <Review></Review>
-
               <Blog></Blog>
               <Events></Events>
               <ContactUs></ContactUs>
@@ -54,6 +53,27 @@ function App() {
             </>
           }
         />
+        <Route
+          path="/events"
+          element={
+            <>
+              <Header></Header>
+              <Events></Events>
+              <ContactUs></ContactUs>
+            </>
+          }
+        />
+        <Route
+          path="/blog"
+          element={
+            <>
+              <Header></Header>
+              <Blog></Blog>
+              <ContactUs></ContactUs>
+            </>
+          }
+        />
+        
         <Route
           path="/services"
           element={

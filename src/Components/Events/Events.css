@@ -5,7 +5,7 @@
   .event-title {
     opacity: 0;
     transform: translateX(-100%); /* Start off-screen to the left */
-    transition: opacity 0.5s, transform 6s;
+    transition: opacity 0s, transform 6s;
   }
   
   .event-title.event {

@@ -1,13 +1,11 @@
-/* Service.css */
+/* .service-box{
+  border: 1px solid red;
+} */
 
-/* .fade-in {
-    opacity: 0;
-    transform: translateY(100%);
-    transition: opacity 0.5s, transform 2s;
-  }
-  
-  .fade-in.fadeIn {
-    opacity: 1;
-    transform: translateY(0);
-  } */
-  
+.service-box img{
+  width: 100%;
+  height: auto;
+}
+.service-box p{
+  float: left;
+}

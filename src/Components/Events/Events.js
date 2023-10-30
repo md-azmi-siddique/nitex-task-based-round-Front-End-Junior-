@@ -15,9 +15,9 @@ const Events = () => {
   return (
     <div className="container event-container">
       <div className={`event-title ${event ? "event" : ""}`}>
-        <h1>events</h1>
+        <h1>Events</h1>
         <br></br>
-        <h3>Fruits</h3>
+        
         <div class="d-flex event-fruits">
           <div class="flex-shrink-0">
             {/* <img className="event-img" src={} alt="..." /> */}
