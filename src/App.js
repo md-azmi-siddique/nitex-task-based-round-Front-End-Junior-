@@ -1,7 +1,9 @@
 import "./App.css";
 import About from "./Components/About/About";
+import Blog from "./Components/Blog/Blog";
 import ContactUs from "./Components/ContactUs/ContactUs";
 import Error404 from "./Components/Error404/Error404";
+import Events from "./Components/Events/Events";
 import Header from "./Components/Header/Header";
 import HeroDesign from "./Components/HeroDesign/HeroDesign";
 import Product from "./Components/Product/Product";
@@ -24,6 +26,9 @@ function App() {
               <Product></Product>
               <Service></Service>
               <Review></Review>
+
+              <Blog></Blog>
+              <Events></Events>
               <ContactUs></ContactUs>
             </div>
           }

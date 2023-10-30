@@ -21,6 +21,7 @@ const Review = () => {
 
   return (
     <div className="container">
+        <h1>Reviews of Experts</h1>
     <div
       className={`justify-content-center review ${
         isVisible ? "visible" : ""
@@ -32,8 +33,8 @@ const Review = () => {
             <div className="card h-100">
               <img src={rimg1} className="card-img-top" alt="..." />
               <div className="card-body">
-                <h5 className="card-title">Title</h5>
-                <p className="card-text"></p>
+                <h5 className="card-title">John Henry</h5>
+                <p className="card-text">Excellent</p>
               </div>
             </div>
           </div>
@@ -41,8 +42,8 @@ const Review = () => {
             <div className="card h-100">
               <img src={rimg2} className="card-img-top" alt="..." />
               <div className="card-body">
-                <h5 className="card-title">Title</h5>
-                <p className="card-text"></p>
+                <h5 className="card-title">Mrs Latty</h5>
+                <p className="card-text">Excellent</p>
               </div>
             </div>
           </div>
@@ -50,8 +51,10 @@ const Review = () => {
             <div className="card h-100">
               <img src={rimg3} className="card-img-top" alt="..." />
               <div className="card-body">
-                <h5 className="card-title">Title</h5>
-                <p className="card-text"></p>
+                <h5 className="card-title">prof. Michel Bose</h5>
+                <p className="card-text">
+                Excellent
+                </p>
               </div>
             </div>
           </div>

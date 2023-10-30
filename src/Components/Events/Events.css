@@ -1,0 +1,24 @@
+.event-container {
+    position: relative;
+  }
+  
+  .event-title {
+    opacity: 0;
+    transform: translateX(-100%); /* Start off-screen to the left */
+    transition: opacity 0.5s, transform 6s;
+  }
+  
+  .event-title.event {
+    opacity: 1;
+    transform: translateX(0); /* Slide in from the left to the right */
+  }
+  
+  
+  .event-fruits{
+    margin-bottom: 50px;
+  }
+
+/* .event-img{
+    width: 200px;
+    height: 200px;
+  } */
