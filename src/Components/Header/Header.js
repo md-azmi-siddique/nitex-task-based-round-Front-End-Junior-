@@ -1,10 +1,10 @@
 import React from "react";
-import Button from "react-bootstrap/Button";
+
 import Container from "react-bootstrap/Container";
-import Form from "react-bootstrap/Form";
+
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import NavDropdown from "react-bootstrap/NavDropdown";
+
 import Offcanvas from "react-bootstrap/Offcanvas";
 import logo from "../Assets/images/NavLogo/logo.jpg";
 import { Link } from "react-router-dom";
@@ -40,29 +40,16 @@ function Header() {
               </Offcanvas.Header>
               <Offcanvas.Body>
                 <Nav className="justify-content-end flex-grow-1 pe-3">
-                  <Nav.Link><Link style={{textDecoration:'none', fontWeight:'bolder'}} to="/">Home</Link></Nav.Link>
-                  <Nav.Link><Link style={{textDecoration:'none', fontWeight:'bolder'}} to="/products">Products</Link></Nav.Link>
-                  <Nav.Link><Link style={{textDecoration:'none', fontWeight:'bolder'}} to="/about">About</Link></Nav.Link>
-                  <Nav.Link><Link style={{textDecoration:'none',fontWeight:'bolder'}} to="/services">Services</Link></Nav.Link>
-                  <Nav.Link><Link style={{textDecoration:'none', fontWeight:'bolder'}} to="/reviews">Review</Link></Nav.Link>
-                  <NavDropdown title="Useful Links" className="custom-dropdown-title">
-                    <NavDropdown.Item><Link style={{textDecoration:'none', fontWeight:'bolder'}} to="/blog">Blog</Link></NavDropdown.Item>
-                    <NavDropdown.Item><Link style={{textDecoration:'none', fontWeight:'bolder'}} to="/events">Events</Link></NavDropdown.Item>
-                  </NavDropdown>
-                  <Nav.Link><Link style={{textDecoration:'none', fontWeight:'bolder'}} to="/contact">Contact Us</Link></Nav.Link>
+                  <Nav.Link><Link className="header-item" to="/">Home</Link></Nav.Link>
+                  <Nav.Link><Link className="header-item" to="/products">Products</Link></Nav.Link>
+                  <Nav.Link><Link className="header-item" to="/about">About</Link></Nav.Link>
+                  <Nav.Link><Link className="header-item" to="/services">Services</Link></Nav.Link>
+                  <Nav.Link><Link className="header-item" to="/reviews">Review</Link></Nav.Link>
+                  <Nav.Link><Link className="header-item" to="/blog">Blog</Link></Nav.Link>
+                  <Nav.Link><Link className="header-item" to="/events">Event</Link></Nav.Link>
+                  <Nav.Link><Link className="header-item" to="/contact">Reach Us</Link></Nav.Link>
                 </Nav>
-                <Form className="d-flex total-search-box search-box">
-                  <Form.Control
-                    type="search"
-                    placeholder="Search"
-                    className="me-2 "
-                    aria-label="Search"
-                    style={{ width: "200px" }}
-                  />
-                  <Button variant="outline-success" className="d-flex">
-                    Search
-                  </Button>
-                </Form>
+          
               </Offcanvas.Body>
             </Navbar.Offcanvas>
           </Container>

@@ -1,11 +1,17 @@
 /* .service-box{
   border: 1px solid red;
 } */
+/* 
+.card{
+  border: 1px solid red !important;
+} */
 
 .service-box img{
   width: 100%;
   height: auto;
+  margin-left: 0px;
 }
 .service-box p{
   float: left;
 }
+

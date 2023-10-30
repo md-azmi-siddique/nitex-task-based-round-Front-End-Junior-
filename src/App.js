@@ -19,7 +19,7 @@ function App() {
           exact
           path="/"
           element={
-            <div>
+            <>
               <Header></Header>
               <HeroDesign></HeroDesign>
               <About></About>
@@ -29,18 +29,18 @@ function App() {
               <Blog></Blog>
               <Events></Events>
               <ContactUs></ContactUs>
-            </div>
+            </>
           }
         />
         <Route
           exact
           path="/products"
           element={
-            <div>
+            <>
               <Header></Header>
               <Product></Product>
               <ContactUs></ContactUs>
-            </div>
+            </>
           }
         />
         <Route

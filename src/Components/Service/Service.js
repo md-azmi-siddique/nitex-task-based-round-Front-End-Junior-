@@ -1,4 +1,5 @@
 import React from "react";
+import Card from "react-bootstrap/Card";
 import img1 from "../Assets/images/Services/1.png";
 import img2 from "../Assets/images/Services/2.png";
 import img3 from "../Assets/images/Services/3.png";
@@ -11,30 +12,29 @@ const Service = () => {
       <h1>Our Services</h1>
       <div className="row">
         <div className="col-md-6 col-sm-6">
-          <div class="card" style={{ width: "18rem" }}>
-            <img src={img1} class="card-img-top" alt="..." />
-            <div class="card-body">
-              <h5>Home Delivery</h5>
-              <p class="card-text">
+          <Card style={{ width: "29rem" }}>
+            <Card.Img variant="top" src={img1} />
+            <Card.Body>
+              <Card.Title>Card Title</Card.Title>
+              <Card.Text>
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
-              </p>
-            </div>
-          </div>
+              </Card.Text>
+            </Card.Body>
+          </Card>
         </div>
         <div className="col-md-6 col-sm-6">
-          <div class="card" style={{ width: "18rem" }}>
-            <img src={img4} class="card-img-top" alt="..." />
-            <div class="card-body">
+          <div className="card" style={{ width: "29rem" }}>
+            <img
+              src={img4}
+              alt="Consumer-Farmer Relationship"
+              className="card-img"
+            />
+            <div className="card-body">
               <h5>Consumer-Farmer Relationship</h5>
-              <p class="card-text">
+              <p className="card-text">
                 The client-farmer relationship denotes a partnership between
-                agricultural service providers or organizations and farmers. It
-                involves providing support, resources, and expertise to farmers
-                to improve their agricultural practices, yield, and overall
-                livelihoods. This relationship fosters mutual trust,
-                knowledge-sharing, and long-term collaboration for sustainable
-                farming outcomes.
+                agricultural service providers or organizations and farmers...
               </p>
             </div>
           </div>
@@ -42,23 +42,25 @@ const Service = () => {
       </div>
       <div className="row">
         <div className="col-md-6">
-        <div class="card" style={{ width: "18rem" }}>
-            <img src={img3} class="card-img-top" alt="..." />
-            <div class="card-body">
+          <div className="card" style={{ width: "29rem" }}>
+            <img src={img3} alt="24/7 Helpline" className="card-img" />
+            <div className="card-body">
               <h5>24/7 Helpline</h5>
-              <p class="card-text">
-              Customer service refers to the assistance and support provided to customers by businesses or organizations to address their inquiries, concerns, and needs, enhancing customer satisfaction and loyalty.
+              <p className="card-text">
+                Customer service refers to the assistance and support provided
+                to customers...
               </p>
             </div>
           </div>
         </div>
         <div className="col-md-6">
-        <div class="card" style={{ width: "18rem" }}>
-            <img src={img2} class="card-img-top" alt="..." />
-            <div class="card-body">
+          <div className="card" style={{ width: "29rem" }}>
+            <img src={img2} alt="Waste Management" className="card-img" />
+            <div className="card-body">
               <h5>Waste Management</h5>
-              <p class="card-text">
-              Waste management is the systematic handling, collection, disposal, and recycling of waste materials to minimize environmental impact and promote sustainability.
+              <p className="card-text">
+                Waste management is the systematic handling, collection,
+                disposal...
               </p>
             </div>
           </div>
