@@ -35,6 +35,22 @@ Nav.Link {
   margin-left: 1000px;
 }
 
+.custom-offCanvas {
+  background: #2b3035 !important; 
+}
+.custom-offCanvas a{
+  text-decoration: none;
+  font-weight: bolder; 
+}
+.custom-offCanvas a:hover{
+  color: wheat;
+}
+
+.custom-offCanvas img{
+  margin-left: auto;
+}
+
+
 @media (max-width: 768px) {
   .custom-navbar .mobile-link {
     color: red; /* Set your desired font color for mobile devices */

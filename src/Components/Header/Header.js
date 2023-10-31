@@ -15,30 +15,19 @@ function Header() {
   return (
     <div className="header">
       {["md"].map((expand) => (
-        <Navbar 
-        fixed="top"
-          data-bs-theme="dark"
-          key={expand}
-          expand={expand}
-          className="custom-navbar bg-body-tertiary mb-3"
-          id="navBar"
-        >
+        <Navbar fixed="top" data-bs-theme="dark" key={expand} expand={expand} className="custom-navbar bg-body-tertiary mb-3" id="navBar">
           <Container fluid>
             <Navbar.Brand>
               <img src={logo} alt="" />
             </Navbar.Brand>
             <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
-            <Navbar.Offcanvas
-              id={`offcanvasNavbar-expand-${expand}`}
-              aria-labelledby={`offcanvasNavbarLabel-expand-${expand}`}
-              placement="end"
-            >
+            <Navbar.Offcanvas className="custom-offCanvas" id={`offcanvasNavbar-expand-${expand}`} aria-labelledby={`offcanvasNavbarLabel-expand-${expand}`} placement="end">
               <Offcanvas.Header closeButton>
-                <Offcanvas.Title
-                  id={`offcanvasNavbarLabel-expand-${expand}`}
-                ></Offcanvas.Title>
+                <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>
+                    <img src={logo} alt="" />
+                </Offcanvas.Title>
               </Offcanvas.Header>
-              <Offcanvas.Body>
+              <Offcanvas.Body className="custom-offcanvas-body">
                 <Nav className="justify-content-end flex-grow-1 pe-3">
                   <Nav.Link><Link className="header-item" to="/">Home</Link></Nav.Link>
                   <Nav.Link><Link className="header-item" to="/products">Products</Link></Nav.Link>
