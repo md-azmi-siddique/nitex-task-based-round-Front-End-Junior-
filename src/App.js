@@ -24,7 +24,7 @@ function App() {
               <HeroDesign></HeroDesign>
               <About></About>
               <Product></Product>
-              <Service></Service>
+              {/* <Service></Service> */}
               <Review></Review>
               <Blog></Blog>
               <Events></Events>
