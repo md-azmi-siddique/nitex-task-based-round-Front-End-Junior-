@@ -8,11 +8,11 @@ import "./Service.css";
 
 const Service = () => {
   return (
-    <div className="container service-box align-items-center">
+    <div className="container service-box">
       <h1>Our Services</h1>
       <div className="row">
         <div className="col-md-6 col-sm-6">
-          <Card style={{ width: "29rem" }}>
+          <Card style={{ width: "20rem" }}>
             <Card.Img variant="top" src={img1} />
             <Card.Body>
               <Card.Title>Home Delivery</Card.Title>
@@ -23,7 +23,7 @@ const Service = () => {
           </Card>
         </div>
         <div className="col-md-6 col-sm-6">
-          <div className="card" style={{ width: "29rem" }}>
+          <div className="card" style={{ width: "20rem" }}>
             <img
               src={img4}
               alt="Consumer-Farmer Relationship"
@@ -41,7 +41,7 @@ const Service = () => {
       </div>
       <div className="row">
         <div className="col-md-6">
-          <div className="card" style={{ width: "29rem" }}>
+          <div className="card" style={{ width: "20rem" }}>
             <img src={img3} alt="24/7 Helpline" className="card-img" />
             <div className="card-body">
               <h5>24/7 Helpline</h5>
@@ -53,7 +53,7 @@ const Service = () => {
           </div>
         </div>
         <div className="col-md-6">
-          <div className="card" style={{ width: "29rem" }}>
+          <div className="card" style={{ width: "20rem" }}>
             <img src={img2} alt="Waste Management" className="card-img" />
             <div className="card-body">
               <h5>Waste Management</h5>

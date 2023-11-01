@@ -14,7 +14,7 @@ import "./Header.css";
 function Header() {
   return (
     <div className="header">
-      {['sm', 'md'].map((expand) => (
+      {[false, 'md', 'lg', 'xl'].map((expand) => (
         <Navbar fixed="top" data-bs-theme="dark" key={expand} expand={expand} className="custom-navbar bg-body-tertiary mb-3" id="navBar">
           <Container fluid>
             <Navbar.Brand>

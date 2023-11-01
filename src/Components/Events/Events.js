@@ -14,8 +14,8 @@ const Events = () => {
   }, []);
 
   return (
-    <div className="container event-container">
-      <div className={`event-title ${event ? "event" : ""}`}>
+    <div className="container">
+      <div>
         <h1>Events</h1>
         <br></br>
 
